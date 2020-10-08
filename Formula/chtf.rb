@@ -1,11 +1,11 @@
 class Chtf < Formula
   desc 'Terraform version switcher'
-  homepage 'https://github.com/Yleisradio/homebrew-terraforms#readme'
+  homepage 'https://github.com/rjoost/homebrew-terraforms#readme'
 
-  url 'https://github.com/Yleisradio/homebrew-terraforms/archive/v1.4.0.tar.gz'
+  url 'https://github.com/rjoost/homebrew-terraforms/archive/v1.4.0.tar.gz'
   sha256 '453fa62fa90ef4df08330c179a18b4a224867bc3444c44d2e2477efbb734ab34'
 
-  head 'https://github.com/Yleisradio/homebrew-terraforms.git'
+  head 'https://github.com/rjoost/homebrew-terraforms.git'
 
   option 'without-completions', 'Disable shell command completions'
 
@@ -30,7 +30,7 @@ class Chtf < Formula
     Then you can choose (and automatically install) a specified Terraform
     version, e.g.:
 
-        chtf 0.11.3
+        chtf 0.11.15-oci
 
     EOS
   end

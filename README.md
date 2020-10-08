@@ -6,7 +6,7 @@ This repository includes Homebrew Casks to install multiple Terraform versions (
 
 Tap this repository:
 
-    brew tap Yleisradio/terraforms
+    brew tap rjoost/terraforms
 
 Install the `chtf` helper:
 
@@ -32,11 +32,11 @@ end
 
 Then select the wanted Terraform version to use with `chtf`.
 
-    chtf 0.11.3
+    chtf 0.11.15-oci
 
 You can also just install a specific Terraform version (but you'll need to use `chtf` or adjust `PATH` yourself to use it):
 
-    brew cask install terraform-0.6.9
+    brew cask install terraform-0.11.15-oci
 
 ## Credits
 
